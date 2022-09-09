@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple counter made using vanilla javascript and styled with tailwind css">
+    <link rel="stylesheet" href="style.css">
+    <title>Counter</title>
+
+</head>
+<body class="px-32 py-40 bg-gradient-to-r from-slate-300 to-white">
+    <h1 class="text-center text-4xl font-extrabold">Counter</h1>
+    <div class="counter text-center text-[10rem]">
+        <h1>
+            0
+        </h1>
+    </div>
+    <div class="button-group md:flex md:justify-center">
+        <button class="increase border-2 rounded-lg px-4 border-black mx-auto md:mx-4 my-2 md:my-auto hover:shadow-lg hover:bg-black hover:text-white text-2xl w-full md:w-1/6">
+            Increase
+        </button>
+        <button class="reset border-2 rounded-lg px-4 border-black mx-auto md:mx-4 my-2 md:my-auto hover:shadow-lg hover:bg-black hover:text-white text-2xl w-full md:w-1/6">
+            Reset
+        </button>
+        <button class="decrease border-2 rounded-lg px-4 border-black mx-auto md:mx-4 my-2 md:my-auto hover:shadow-lg hover:bg-black hover:text-white text-2xl w-full md:w-1/6">
+            Decrease
+        </button>
+    </div>
+
+
+    <div class="footer absolute bottom-0 left-0 right-0 text-center py-5">
+        © Muthu Aanand
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
